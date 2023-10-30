@@ -1,0 +1,421 @@
+*{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.outermost-container{
+    background-image: url(imagesfordiscord/discordbackgroundaltered.jpeg);
+    width: 100%;
+    height: 625px;
+    align-items: center;
+}
+.container-of-navigation{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-with-three{
+    height: 80px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+.with-logo{
+    height: 80px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.with-logo img{
+    height: 60px;
+    width: 100px;
+}
+.with-seven-atag{
+    height: 80px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.with-seven-atag a{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    word-spacing: 0px;
+}
+.with-seven-atag a:hover{
+    text-decoration: underline;
+}
+.with-login{
+    display: flex;
+    height: 80px;
+        width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.with-login button{
+    height: 40px;
+    width: 70px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+.with-login button:hover{
+    color: blue;
+}
+.with-h1-tag{
+    width: 780px;
+    height: 190px;
+    text-align: center;
+    margin: auto;
+    margin-top: 110px;
+}
+.with-h1-tag h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.with-h1-tag p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.with-download-image img{
+height: 20px;
+width: 20px;
+
+}
+.with-two-buttons{
+    height: 80px;
+    width: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.with-two-buttons button{
+    height: 56px;
+    width: 293px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+}
+.with-text-only{
+    background-color:#23272A;
+    color: white;
+}
+.second-outercontainer{
+    height: 680px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inside-second-outercontainer{
+    height: 680px;
+    width: 1260px;
+    padding: 120px 40px 120px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.second-section-left{
+    height: 500px;
+    width: 750px;
+
+}
+.second-section-right{
+    height: 460px;
+    width: 380px;
+
+}
+.second-section-right h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #23272A;
+}
+.second-section-right p{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    color: #23272A;
+}
+.third-outercontainer{
+    height: 680px;
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside-third-outercontainer{
+    height: 680px;
+    width: 1260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third-section-left{
+    height: 440px;
+    width: 380px;
+    padding-top: 40px;
+}
+.third-section-left h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #23272A;
+}
+.third-section-left p{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 32px;
+    color: #23272A;
+}
+.third-section-right{
+    height: 440px;
+    width: 680px;
+}
+.fourth-outercontainer{
+    height: 680px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside-fourth-outercontainer{
+    height: 680px;
+    width: 1260px;
+    display: flex;
+    align-items: center;
+}
+.fourth-section-left{
+height: 440px;
+width: 680px;
+}
+.fourth-section-right{
+    height: 440px;
+    width: 380px;
+    padding-top: 40px;
+
+}
+.fourth-section-right h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #23272A;
+}
+.fourth-section-right p{
+    margin-top: 20px;
+    line-height: 32px;
+    font-size: 20px;
+    color: #23272A;
+}
+.fifth-outercontainer{
+    height: 1060px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+.inside-fifth-outercontainer{
+    height:1060px;
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.with-two-textbox{
+    height: 130px;
+    width: 1000px;
+    text-align: center;
+}
+.with-two-textbox h1{
+    font-size: 40px;
+    font-weight: 800;
+   font-stretch: expanded;
+   font-family:sans-serif;
+   color: #23272a;
+}
+.with-two-textbox p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #23272a;
+}
+.with-fifth-image{
+    height: 715px;
+    width: 1180px;
+}
+.with-fifth-image img{
+    height: 700px;
+    width: 1150px;
+    margin-left: 50px;
+}
+.sixth-outercontainer{
+    height: 285px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+.inside-sixth-outercontainer{
+    height: 165px;
+    width: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inside-sixth-outercontainer h1{
+    font-size: 30px;
+    margin-left: 900px;
+    font-weight: 700;
+    color: #23272a;
+}
+.inside-sixth-outercontainer img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.inside-sixth-outercontainer button{
+    margin-top: 50px;
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #404eed;
+    border: none;
+    padding: 16px 32px 16px 32px;
+    color: white;
+}
+.inside-sixth-outercontainer button:hover{
+    background-color: #5865f2;
+}
+.footer{
+    height: 600px;
+    width: 100%;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+}
+.insidefooter{
+    height: 450px;
+    width: 1340px;
+    border-bottom: 1px solid white;
+}
+.oneinsidefooter{
+    height: 400px;
+    width: 1260px;
+    margin-left: 50px;
+    margin-top: 25px;
+    display: flex;
+}
+.footer-container-one{
+    height: 400px;
+    width: 280px;
+}
+.footer-container-two{
+    height: 400px;
+    width: 80px;
+}
+.footer-container-three,.footer-container-four,.footer-container-five,.footer-container-six{
+    height: 400px;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+}
+.with-flag-image{
+    padding: 20px;
+
+    display: flex;
+}
+.americanflag{
+height: 15px;
+width: 25px;
+
+}
+.downarrow{
+    height: 10px;
+    width: 10px;
+    margin-right: 120px;
+}
+.with-flag-image p{
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.social-network{
+    display: flex;
+    margin-top: 20px;
+}
+.social-network img{
+    height: 27px;
+    width: 27px;
+    margin-left: 20px;
+}
+
+.a-tags{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.a-tags a{
+    color: white;
+    font-size: 15px;
+}
+h4{
+    color: #5865f2;
+}
+.under-the-line{
+    height: 60px;
+    width: 1260px;
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.discordlogo{
+    height: 60px;
+    width: 150px;
+}
+.signup-button{
+    height: 60px;
+    width: 150px;
+}
+.signup-button button{
+height: 40px;
+width: 80px;
+background-color: #404eed;
+border-radius: 24px;
+border: none;
+color: white;
+}
+.signup-button button:hover{
+    background-color:#5865f2;
+
+}
+.a-tags a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
